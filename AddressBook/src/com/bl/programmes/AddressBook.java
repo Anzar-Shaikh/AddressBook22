@@ -1,11 +1,9 @@
 package com.bl.programmes;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class AddressBook {
-    ArrayList<Person> list = new ArrayList<Person>();
+    Set<Person> list = new HashSet<>();
     Scanner sc;
 
     public void addContact() {
