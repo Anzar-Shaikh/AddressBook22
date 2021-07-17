@@ -4,6 +4,7 @@ import java.util.*;
 
 public class AddressBook {
     Set<Person> list = new HashSet<>();
+    // as we use hashSet here multiple entries are not allowed.
     Scanner sc;
 
     public void addContact() {
